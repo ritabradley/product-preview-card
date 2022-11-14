@@ -85,6 +85,7 @@ body {
     display: flex;
     margin: 2rem 0;
     align-items: center;
+    font-size: 1.3rem;
 }
 
 .product__sale-price {
@@ -99,4 +100,28 @@ body {
 .product__regular-price {
     color: var(--secondary-text);
     text-decoration: line-through;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-bg);
+    background-color: var(--brand-color);
+    width: 100%;
+    font-weight: var(--heading-font-weight);
+    padding: 1.5rem;
+    border: none;
+    border-radius: 0.8rem;
+    line-height: 1.7rem;
+    font-size: 1.4rem;
+    transition: background-color 500ms ease-in;
+}
+
+button:hover {
+    background-color: var(--brand-hover-color);
+}
+
+button img {
+    margin-right: 1.1rem;
 }
