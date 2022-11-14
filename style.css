@@ -125,3 +125,26 @@ button:hover {
 button img {
     margin-right: 1.1rem;
 }
+
+@media only screen and (min-width: 600px) {
+    .product__card {
+        flex-direction: row;
+        width: 600px;
+        height: 450px;
+        margin: 0 auto;
+    }
+
+    .product-preview {
+        background-image: url(./images/image-product-desktop.jpg);
+        height: 100%;
+        width: 175%;
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    .product__details {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3.2rem;
+    }
+}
