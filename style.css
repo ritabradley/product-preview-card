@@ -76,7 +76,3 @@ body {
     line-height: var(--heading-size);
     margin: 0.4rem 0;
 }
-.attribution {
-    position: absolute;
-    bottom: 0;
-}
