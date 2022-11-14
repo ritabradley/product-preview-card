@@ -28,4 +28,31 @@ html {
 body {
     font-size: 1.4rem;
     color: var(--primary-text);
+    background-color: var(--primary-bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.product__card {
+    background-color: var(--secondary-bg);
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    height: 90vh;
+    margin: 0 2rem;
+}
+
+.product-preview {
+    background: center / cover no-repeat url(./images/image-product-mobile.jpg);
+    height: 24rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
 }
