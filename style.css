@@ -52,6 +52,30 @@ body {
     border-radius: 1rem 1rem 0 0;
 }
 
+.product__details {
+    padding: 2.4rem;
+}
+
+.product__category,
+.product__description {
+    color: var(--secondary-text);
+}
+
+.product__category {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.4rem;
+}
+
+.product__name {
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-size);
+    font-weight: var(--heading-font-weight);
+    margin: 1.2rem 0;
+    line-height: var(--heading-size);
+    margin: 0.4rem 0;
+}
 .attribution {
     position: absolute;
     bottom: 0;
