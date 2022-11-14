@@ -44,6 +44,7 @@ Users should be able to:
 
 I learned a bit more about how to leveage Flexbox to make nice layouts. I struggled a bit with getting the desktop view centered because I used fixed sizing for the card but once I figured that out, it was smooth sailing.
 
+
 ```html
  <div class="product__card">
       <div class="product-preview">
