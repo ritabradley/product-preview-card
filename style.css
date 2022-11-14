@@ -1,0 +1,31 @@
+@import url(https://fonts.bunny.net/css?family=fraunces:700|montserrat:500,700);
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 2.3rem;
+    --heading-font-family: 'Fraunces', serif;
+    --heading-font-weight: 700;
+    --heading-size: 3.2rem;
+    --secondary-bg: rgb(255, 255, 255);
+    --primary-bg: rgb(242, 234, 226);
+    --secondary-text: hsl(228, 12%, 48%);
+    --primary-text: rgb(28, 35, 43);
+    --brand-color: rgb(61, 129, 104);
+    --brand-hover-color: rgb(26, 64, 50);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    color: var(--primary-text);
+}
